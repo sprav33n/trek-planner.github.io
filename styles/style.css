@@ -1,0 +1,36 @@
+p, li{
+
+  color: #007fff;
+
+}
+
+h1{
+
+  margin: 0;
+  font-size: 32px;
+  line-height: 2;
+  letter-spacing: 1px;
+  border: 0px solid blue;
+  text-shadow: 1px 1px 10px blue;
+}
+
+html{
+  font-size: 16px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+body{
+  background-image: url(../images/abc.jpg);
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 20px 20px 20px;
+  border: 5px solid black;
+}
+
+img {
+  height: 400px; // Ensuring that the images don't make the texts jump due to different sizes!
+  display: block;
+  margin: 0 auto;
+  width: inherit; /* Is perhaps inheriting from what is encompassing it...
+  In this case, the body */
+}
